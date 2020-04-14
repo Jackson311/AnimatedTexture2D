@@ -1,0 +1,45 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "AnimatedTexture2D",
+  "Description": "Import a GIF as new asset type and play animated texture",
+  "Category": "Animated",
+  "CreatedBy": "Jackson",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/af2d3ca94d3c4a2281aac850681ecc2a",
+  "SupportURL": "",
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "Installed": false,
+  "EngineVersion": "4.24.0",
+  "Modules": [
+    {
+      "Name": "AnimatedTexture2DRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "WhitelistPlatforms": [
+        "Android",
+        "IOS",
+        "Mac",
+        "Win32",
+        "Win64",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AnimatedTexture2DEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default",
+      "WhitelistPlatforms": [
+        "Android",
+        "IOS",
+        "Mac",
+        "Win32",
+        "Win64",
+        "Linux"
+      ]
+    }
+  ]
+}
